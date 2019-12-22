@@ -1,0 +1,6 @@
+# Export functions
+export(find_nim)
+export(nim_engine)
+export(spinnim)
+# export(stata_collectcode)
+# export(stataoutputhook)

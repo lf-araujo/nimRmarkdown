@@ -1,0 +1,6 @@
+citHeader("To cite nimrmarkdown in publications use:")
+
+citEntry(entry = "Website",
+         title        = "Performant reproducible research using {Nim}",
+         author       = personList(as.person("Luis Castro-de-Araujo"))
+)

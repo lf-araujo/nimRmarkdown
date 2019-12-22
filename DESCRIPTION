@@ -1,0 +1,19 @@
+Package: nimrmarkdown
+Type: Package
+Version: 0.0.1
+Date: 2019-12-22
+Title: 'Nim' Markdown
+Description: Settings and functions to extend the 'knitr' 'Nim' engine.
+Imports: knitr (>= 1.15), xfun (>= 0.4)
+SystemRequirements: Stata
+Authors@R: c(
+  person("Luis", "Araujo", email="ldearaujo@unimelb.edu.au", 
+    role=c("aut", "cre"), comment="The University of Melbourne")
+  )
+Maintainer: Luis Araujo <ldearaujo@unimelb.edu.au>
+License: MIT + file LICENSE
+BugReports: http://github.com/Hemken/Statamarkdown/issues
+Encoding: UTF-8
+RoxygenNote: 6.1.1
+VignetteBuilder: knitr
+Suggests: rmarkdown

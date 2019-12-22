@@ -1,0 +1,59 @@
+---
+title: "Basic Use of Nimrmarkdown"
+author: "Luis Araujo"
+date: "`r format(Sys.Date(), '%b %Y')`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteIndexEntry{Basic Use of nimrmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r knit_opts, include=FALSE}
+knitr::opts_chunk$set(eval = nzchar(Sys.getenv("VIG")))
+```
+
+This discussion assumes you already have a basic understanding
+of Markdown for document formatting, Rmarkdown to include executable
+code in a document, and nim to write the code.
+
+## First attach the `nimrmarkdown` library
+Your first code chunk will look something like this:
+
+    ```{r library}`r ''`
+    library(nimrmarkdown)
+    ```
+    
+This will either report that nim was found, or
+that you need to specify it\'s location yourself.
+
+```{r library, echo=FALSE}
+library(nimrmarkdown)
+```
+
+You can hide all of this so it does not appear in your
+final document by using the `echo=FALSE, message=FALSE`
+chunk options.
+
+## If nim was not found
+You will need to specify this yourself, as an alternative line in
+the \"library\" code block.
+
+
+```{r nimexe, eval=FALSE}
+nimexe <- "/home/luis/.nimble/bin/nim"
+```
+
+
+## Then set up nim code chunks.
+A simple code chunk in Rmarkdown might look like:
+
+    ```{nim example}`r ''`
+    echo "cool, this works"
+    ```
+
+And in your document this would produce:
+
+```{nim example}
+echo "cool, this works"
+```
