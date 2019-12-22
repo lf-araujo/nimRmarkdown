@@ -6,7 +6,7 @@ also have Nim installed.
 
 You can install these as an R package:
 ```
-devtools::install_github("lf_araujo/nimrmarkdown")
+devtools::install_github("lf-araujo/nimrmarkdown")
 ```
 Then you can check with
 ```
