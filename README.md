@@ -1,5 +1,16 @@
 # Nimrmarkdown
 
+![](https://img.shields.io/github/languages/top/lf-araujo/nimrmarkdown?style=for-the-badge)
+![](https://img.shields.io/github/languages/count/lf-araujo/nimrmarkdown?logoColor=green&style=for-the-badge)
+![](https://img.shields.io/github/stars/lf-araujo/nimrmarkdown?style=for-the-badge "Star on GitHub!")
+![](https://img.shields.io/maintenance/yes/2020?style=for-the-badge "2020")
+![](https://img.shields.io/github/languages/code-size/lf-araujo/nimrmarkdown?style=for-the-badge)
+![](https://img.shields.io/github/issues-raw/lf-araujo/nimrmarkdown?style=for-the-badge "Bugs")
+![](https://img.shields.io/github/issues-pr-raw/lf-araujo/nimrmarkdown?style=for-the-badge "PRs")
+![](https://img.shields.io/github/commit-activity/y/lf-araujo/nimrmarkdown?style=for-the-badge)
+![](https://img.shields.io/github/last-commit/lf-araujo/nimrmarkdown?style=for-the-badge "Commits")
+![](https://img.shields.io/twitter/follow/lf_araujo__?label=Follow&style=for-the-badge)
+
 This is a collection of R functions that extends knitr's capability 
 for using Nim as a language engine.  They have no use if you do not 
 also have Nim installed.
